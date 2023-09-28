@@ -1,0 +1,129 @@
+:root{
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%);
+--Fontsizeparagraph: 16px;
+}
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+p{font-size: var(--Fontsizeparagraph);}
+body{background-color: var(--CharcoalGrey);}
+.content{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin: 5% 0 0 20%;
+    background-color: var(--White);
+    border-radius: 20px;
+    flex-direction: row-reverse;
+}
+.inform{margin: 80px 0  0 30px ;}
+h1{ font-size: 50px;}
+
+#p1{ margin-top: 20px}
+
+.lin1{display: flex;margin-top: 20px;}
+.lin2{display: flex;margin-top: 20px;}
+.lin3{display: flex;margin-top: 20px;}
+
+#p2{margin-left: 15px;}
+#p3{margin-left: 15px;}
+#p4{margin-left: 15px;margin-bottom: 50px;}
+#p5{font-size: 5px;display: block;}
+.mail{display: block;margin-top: 5px;
+width: 350px;
+height: 40px;
+border-radius: 6px;
+padding: 4px;
+border-style:solid;
+}
+.mail:hover{cursor: pointer; }
+.bt:hover{cursor: pointer; background-color: var(--CharcoalGrey); }
+.bt{display: block;margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    border-style:solid;
+    border-style: none;
+    
+background-color: var(--Tomato); }
+.bt {color: white;}
+
+
+/* page 2*/
+
+.contant2{
+    background-color: var(--White);
+   
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin: 10% 0 0 30%;
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.ti2{
+    margin-top: 20px;
+    color: var(--DarkSlateGrey);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+b{color: var(--DarkSlateGrey);}
+.bt2{display: block;margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 4px;
+    border-style:solid;
+    border-style: none;
+    color: white;
+background-color: var(--DarkSlateGrey); }
+.p6{line-height: 1.6}
+.bt2:hover{cursor: pointer; background-color: var(--Tomato)}
+
+
+@media screen and (max-width:375px) {
+
+    .content{
+        margin: 0;
+    width: 370px;
+    height: 700px; 
+    flex-direction: column;
+}
+#imge{width: 350px; height: 200px;;}
+.ss{background-color: var(--Tomato);}
+.inform{margin: 15% 0 0 7px;}
+h1{ font-size: 40px;}
+
+/* page 2*/
+
+.contant2{
+    width: 260px;
+    height: 500px;
+    margin: 0 0 0 0;
+    padding: 40px 0 0 10px;
+    border-radius: 0px;
+    padding-top: 35%;
+    
+}
+
+.ti2{
+    font-size: 30px;
+}
+.bt2{
+    width: 230px;
+   
+}}
